@@ -1,0 +1,74 @@
+
+*{
+    margin: 0px;
+}
+.choices {
+    display: flex;
+    justify-content: space-evenly;
+}
+body {
+    background-color: lightblue;
+}
+#head-name {
+    font-size: 50px;
+    /* margin-right:100px ;
+    margin-left: 100px; */
+    margin-top: 10px;
+    background-color: blue;
+    color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.box {
+    height: 160px;
+    width: 135px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 4px;
+    margin: 0rem; 
+    
+}
+.box:hover {
+    border: 2px solid blue;
+    border-width:3px;
+    border-image: linear-gradient(45deg,blue,indigo)1;
+    /* position: relative; */
+
+    
+}
+.box:active {
+    border: 2px solid black;
+}
+.score-count {
+    height: 110px;
+    width: auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+.score-box {
+  
+    font-size: large;
+    height: 50px;
+    width: 150px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+
+.match-count {
+    margin:40px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size:x-large ;
+    align-self: center;
+}
+.match {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding:5px;
+}
