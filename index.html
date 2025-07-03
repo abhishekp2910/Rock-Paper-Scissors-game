@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+    <h1 align="center" id="head-name">Rock Paper Scissors</h1><br><br><br>
+
+        <div class="score-count">
+            <div class="score-box" id="Player">
+                 Player : 0
+            </div>
+            <div class="score-box" id="Computer">
+                 Computer : 0
+            </div>
+        </div>
+    </header>
+    <main>
+        <div align="center">
+            <h3 id="userMove" style="color: blue;"></h3><br>
+            <h3 id="computerMove" style="color:red"></h3>
+        </div><br><br>
+    <div class="choices">
+        <div class="box">
+            <button onclick="play('ROCK')">
+                <img src="images/rock.jpg" alt="rock" width="120px" height="150px" >
+            </button>
+        </div>
+        <div class="box">
+            <button onclick="play('PAPER')">
+                <img src="images/Paper.jpg" alt="paper" width="120px" height="150px">
+            </button>
+        </div>
+        <div class="box">
+            <button onclick="play('SCISSORS')">
+                <img src="images/Scissors.jpg" alt="scissors" width="120px" height="150px">
+            </button>
+        </div>
+    </div>
+    </main>
+    <br><br><br>
+       
+    <footer>   
+        <div>
+        <h1 id="status" align="center" >Choose Your Weapon...</h1>
+      
+        <div class="match-count">
+            <div  id="mw">
+                 Matches Won : 0
+            </div>
+            <div  id="ml">
+                 Matches Lost : 0
+            </div>
+        </div>
+       
+    </div>
+    </footer>
+
+
+  
+</body>
+</html>
